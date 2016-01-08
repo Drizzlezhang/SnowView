@@ -13,10 +13,10 @@ public class SnowView extends View {
 
 	private SnowFlake[] snowflakes;
 
-	private int HUGESNOW = 1;
-	private int BIGSNOW = 2;
-	private int MIDDLESNOW = 3;
-	private int SMALLSNOW = 4;
+	public int HUGESNOW = 1;
+	public int BIGSNOW = 2;
+	public int MIDDLESNOW = 3;
+	public int SMALLSNOW = 4;
 	private int snowColor;
 	private int snowLevel;
 
