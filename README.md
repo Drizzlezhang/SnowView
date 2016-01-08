@@ -1,8 +1,9 @@
 # SnowView
-雪花效果
+
 ### Sample
  ![sample1 gif](/png/sample1.gif)
  ![sample2 gif](/png/sample2.gif)
+## How to use it?
 #### 设置属性
     snow_level      //雪的大小
     snow_color      //雪花的颜色
