@@ -6,13 +6,15 @@
 	android:layout_height="match_parent"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	tools:context="com.drizzle.myapplication.MainActivity"
+	android:background="#000000"
 	>
 	
 	<com.drizzle.snowview.SnowView
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		app:snow_color="@color/colorAccent"
-		app:snow_level="small"
+		app:snow_level="huge"
+		app:snow_flake_type="color"
 		/>
 	
 </FrameLayout>

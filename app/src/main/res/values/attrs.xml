@@ -13,8 +13,16 @@
 	<attr name="snow_color"
 		format="color"/>
 
+	<attr name="snow_flake_type">
+		<enum name="color"
+			value="1"/>
+		<enum name="bitmap"
+			value="2"/>
+	</attr>
+
 	<declare-styleable name="SnowView">
 		<attr name="snow_level"/>
 		<attr name="snow_color"/>
+		<attr name="snow_flake_type"/>
 	</declare-styleable>
 </resources>
