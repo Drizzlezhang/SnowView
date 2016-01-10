@@ -39,7 +39,7 @@ public class SnowView extends View {
 	public SnowView(Context context, AttributeSet attrs, int defStyleAttr) {
 		super(context, attrs, defStyleAttr);
 		TypedArray array = context.getTheme().obtainStyledAttributes(attrs, R.styleable.SnowView, defStyleAttr, 0);
-		snowLevel = array.getInt(R.styleable.SnowView_snow_level, BIGSNOW);
+		snowLevel = array.getInt(R.styleable.SnowView_snow_level, MIDDLESNOW);
 		snowColor = array.getColor(R.styleable.SnowView_snow_color, Color.WHITE);
 		snowflakeType = array.getInt(R.styleable.SnowView_snow_flake_type, SNOWFLAKE_COLOR);
 		snowFlakeBitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.snowflake);
